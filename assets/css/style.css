@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+background-color:rgb(23, 22, 39); ;
+}
+
+
+.header {
+  width: 100%;
+  height: max-content;
+}
+
+.container {
+  display: flex;
+
+
+  width: 100%;
+  padding: 30px 50px;
+
+}
+
+.nav__item{
+  display: flex;
+ gap: 30px;
+
+}
+
+.nav__img img{
+  width: 30px;
+  gap: 5px;
+  background-color: white;
+  border-radius: 20px;
+  margin-top: -5px;
+
+}
+.nav__input {
+margin-left: -10px;
+border-radius: 100%;
+color: white;
+
+}
+.fas fa-camera{
+  color: aqua;
+} 
+
+.nav__link {
+  color: white;
+  
+}
+
+input {
+  border-radius: 5px;
+  color: white;
+  border-color: black;
+
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+.fal{
+  color: white;
+}
+.far {
+  color: white;
+}
+.fas{
+  color: white;
+margin-left: -15px;
+
+}
+.right{
+display: flex;
+margin-left: 600px;
+gap: 20px;
+}
+.bad{
+  margin-left: 15px;
+  gap: 20px;
+  display: flex;
+}
+.abs::after{
+  content: "/";
+}
+.bad2{
+    margin-left: 15px;
+  gap: 20px;
+  display: flex;
+}
+.dd{
+  width: 30px;
+  border-radius: 20px;
+  margin-top: -10px;
+}
